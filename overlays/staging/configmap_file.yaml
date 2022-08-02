@@ -27,7 +27,6 @@ metadata:
             'f:name': {}
             'f:template.openshift.io/template-instance-owner': {}
 data:
-  .filebrowser.json: "{\r\n  \"port\": 8090,\r\n  \"baseURL\": \"\",\r\n  \"address\": \"\",\r\n  \"log\": \"stdout\",\r\n  \"database\": \"/db/database.db\",\r\n  \"root\": \"/srv\"\r\n}"
   stunnel.conf: |2
 
      pid =

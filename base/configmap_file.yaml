@@ -1,0 +1,30 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: filebrowser-config
+  namespace: businesscasestudies
+  uid: bcf3aea9-c3b7-40d7-9bbc-d8df92e75aa9
+  resourceVersion: '3733436'
+  creationTimestamp: '2021-01-10T15:32:07Z'
+  labels:
+    app: businesscasestudies
+    name: businesscasestudies
+    template.openshift.io/template-instance-owner: cef6b73f-c11e-4906-a04b-507f6655bb56
+  managedFields:
+    - manager: openshift-controller-manager
+      operation: Update
+      apiVersion: v1
+      time: '2021-01-10T15:32:07Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:.filebrowser.json': {}
+        'f:metadata':
+          'f:labels':
+            .: {}
+            'f:app': {}
+            'f:name': {}
+            'f:template.openshift.io/template-instance-owner': {}
+data:
+  .filebrowser.json: "{\r\n  \"port\": 8090,\r\n  \"baseURL\": \"\",\r\n  \"address\": \"\",\r\n  \"log\": \"stdout\",\r\n  \"database\": \"/db/database.db\",\r\n  \"root\": \"/srv\"\r\n}"
